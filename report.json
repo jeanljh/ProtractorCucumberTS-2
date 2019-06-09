@@ -1,0 +1,215 @@
+[
+  {
+    "description": "   Feature Description Test check availability features",
+    "keyword": "Feature",
+    "name": "checkAvailability",
+    "line": 1,
+    "id": "checkavailability",
+    "tags": [],
+    "uri": "features\\checkAvailability.feature",
+    "elements": [
+      {
+        "id": "checkavailability;default-placeholder-text-is-present-for-check-in-date-and-check-out-date-fields",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Default placeholder text is present for Check-In Date and Check-Out Date fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Default Check-In Date placeholder text is present",
+            "match": {
+              "location": "js_files\\test_suites\\checkAvailability.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Default Check-Out Date placeholder text is present",
+            "match": {
+              "location": "js_files\\test_suites\\checkAvailability.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkavailability;default-selected-check-in-date-is-today's-date-and-check-out-date-is-tomorrow's-date",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Default selected check-in date is today's date and check-out date is tomorrow's date",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Default selected check-in date is today's date",
+            "match": {
+              "location": "js_files\\test_suites\\checkAvailability.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Default selected check-out date is tomorrow's date",
+            "match": {
+              "location": "js_files\\test_suites\\checkAvailability.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkavailability;validate-date-selected-from-date-picker-is-shown-in-check-in-and-check-out-date-fields",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validate date selected from date picker is shown in check-in and check-out date fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Select '3 July 2019' and '7 July 2019' from date picker",
+            "match": {
+              "location": "js_files\\test_suites\\checkAvailability.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1538000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "'3 July 2019' and '7 July 2019' are shown in check-in and check-out date fields",
+            "match": {
+              "location": "js_files\\test_suites\\checkAvailability.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
